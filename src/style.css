@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+body{
+    background-color: lightblue !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.my-img {
+    
+}
+
+.bio {
+    margin-top: 2rem;
+    color: white;
+}
+
+.bioTitle {
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-size: 5rem;
+}
+
+.occupation {
+    display: inline;
+    color: white;
+    font-size: 8rem;
+}
+
+.page-section {
+    margin: 25px 0;
+    margin-right: 10px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    color: white !important;
+}
+
+.page-section > h2 {
+    flex: 0 0 15%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid white !important;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 85%;
+    text-align: justify;
+}
+
+.page-section p {
+    margin-bottom: 20px;
+    color: black;
+    text-align: justify;
+}
+
+.project-list {
+    margin-left: 20px;
+    list-style:circle;
+    line-height: 2;
+    color: white;
+}
+
+.project-explination {
+    margin-left: 60px;
+    line-height: 1.5;
+    list-style: square;
+    font-size: 75%;
+    color: white;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    padding: 20px;
+}
+
+.grid-item {
+    border: 5px solid black;
+    grid-column: 1 / 2;
+    color: white !important;;
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 10px 0;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.8rem;
+}
+
+#project1 {
+    background-image: url(./images/Screenshot_20230106_075141.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#project2 {
+    background-image: url(./images/Screenshot\ 2023-03-08\ 220538.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#weatherDashboard {
+    background-image: url(./images/Screenshot_20230106_075740.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+figcaption {
+    padding: 2px;
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+div figure a:hover {
+    background-color: rgb(141, 141, 141);
+}
+
+div figure a span {
+    font-size: 8px;
+}
+
+div address a {
+    
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+div address a:hover {
+    text-shadow: 0px 0px 15px black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: white;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: rgb(42, 193, 253);
+    }
+    header {
+        font-size: smaller;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    body {    
+      background-color: lightgrey;
+    }
+    div {
+        font-size: larger;
+    }
+  }
+  
