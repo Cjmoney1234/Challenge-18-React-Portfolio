@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Cjmoney1234/Challenge-18-React-Portfolio/static/css/main.63a6bd38.css",
-    "main.js": "/Cjmoney1234/Challenge-18-React-Portfolio/static/js/main.5253b7d6.js",
-    "static/media/Screenshot 2023-04-10 192200.png": "/Cjmoney1234/Challenge-18-React-Portfolio/static/media/Screenshot 2023-04-10 192200.5f7d2dce3ab1834780e2.png",
-    "static/media/Screenshot_20230106_075141.png": "/Cjmoney1234/Challenge-18-React-Portfolio/static/media/Screenshot_20230106_075141.29727d85ed68b3037fc5.png",
-    "static/media/Screenshot 2023-04-10 192508.png": "/Cjmoney1234/Challenge-18-React-Portfolio/static/media/Screenshot 2023-04-10 192508.dd2031a7f0855514d7aa.png",
-    "static/media/Screenshot 2023-03-08 220538.png": "/Cjmoney1234/Challenge-18-React-Portfolio/static/media/Screenshot 2023-03-08 220538.3616df638e41123a6aca.png",
-    "static/media/Screenshot_20230106_075740.png": "/Cjmoney1234/Challenge-18-React-Portfolio/static/media/Screenshot_20230106_075740.b632d157e56c6bb8f9fa.png",
-    "static/media/Screenshot 2023-04-10 192043.png": "/Cjmoney1234/Challenge-18-React-Portfolio/static/media/Screenshot 2023-04-10 192043.ff7b6bfe271c3e57c7a2.png",
-    "index.html": "/Cjmoney1234/Challenge-18-React-Portfolio/index.html",
-    "main.63a6bd38.css.map": "/Cjmoney1234/Challenge-18-React-Portfolio/static/css/main.63a6bd38.css.map",
-    "main.5253b7d6.js.map": "/Cjmoney1234/Challenge-18-React-Portfolio/static/js/main.5253b7d6.js.map"
+    "main.css": "/my-app/static/css/main.1c0bde89.css",
+    "main.js": "/my-app/static/js/main.5253b7d6.js",
+    "static/media/Screenshot 2023-04-10 192200.png": "/my-app/static/media/Screenshot 2023-04-10 192200.5f7d2dce3ab1834780e2.png",
+    "static/media/Screenshot_20230106_075141.png": "/my-app/static/media/Screenshot_20230106_075141.29727d85ed68b3037fc5.png",
+    "static/media/Screenshot 2023-04-10 192508.png": "/my-app/static/media/Screenshot 2023-04-10 192508.dd2031a7f0855514d7aa.png",
+    "static/media/Screenshot 2023-03-08 220538.png": "/my-app/static/media/Screenshot 2023-03-08 220538.3616df638e41123a6aca.png",
+    "static/media/Screenshot_20230106_075740.png": "/my-app/static/media/Screenshot_20230106_075740.b632d157e56c6bb8f9fa.png",
+    "static/media/Screenshot 2023-04-10 192043.png": "/my-app/static/media/Screenshot 2023-04-10 192043.ff7b6bfe271c3e57c7a2.png",
+    "index.html": "/my-app/index.html",
+    "main.1c0bde89.css.map": "/my-app/static/css/main.1c0bde89.css.map",
+    "main.5253b7d6.js.map": "/my-app/static/js/main.5253b7d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.63a6bd38.css",
+    "static/css/main.1c0bde89.css",
     "static/js/main.5253b7d6.js"
   ]
 }
