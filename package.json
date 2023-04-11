@@ -10,6 +10,7 @@
     "bootstrap": "^5.2.3",
     "concurrently": "^8.0.1",
     "develop": "^1.0.0",
+    "flowbite": "^1.6.5",
     "gh-pages": "^5.0.0",
     "react": "17.0.2",
     "react-bootstrap": "^2.7.2",

@@ -1,4 +1,3 @@
-{import('tailwindcss').Config}
 import React from 'react';
 
 export default function About() {

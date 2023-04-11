@@ -1,4 +1,3 @@
-{import('tailwindcss').Config}
 import './style.css';
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
