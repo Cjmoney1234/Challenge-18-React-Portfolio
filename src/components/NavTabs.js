@@ -1,53 +1,49 @@
 import React from 'react';
 import '.././style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/js/bootstrap.min.js";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <form class="d-flex search" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home" onClick={() => handlePageChange('Home')}>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onClick={() => handlePageChange('About')}>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onClick={() => handlePageChange('Portfolio')}>Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onClick={() => handlePageChange('Resume')}>Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onClick={() => handlePageChange('Contact')}>
+                Contact
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Phone</a></li>
+                <li><a class="dropdown-item" href="#">Email</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Linkedin</a></li>
+                <li><a class="dropdown-item" href="#">Github</a></li>
+              </ul>
+            </li>
+          </ul>
+        
+        </div>
+      </div>
+    </nav>
   );
 }
 

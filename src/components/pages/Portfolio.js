@@ -11,7 +11,13 @@ export default function Portfolio() {
             If you wish to add your favorite local resturant then you can submit using the modal.</li>
         <li class="project-list"> Foodie Central Cribs </li>
             <li class="project-explination">This is the second project completed during my time in bootcamp, I was assigned Lead JS Devekoper & Assistant Back End Developer. My team and I created an application that allows the user to create a recipe list.
-            </li><br></br>
+            </li>
+        <li class="project-list"> Foodi3C3ntral </li>
+        <li class="project-explination">This is the third project completed during my time in bootcamp, I was assigned Lead JS Devekoper & Assistant Back End Developer. My team and I created an application that allows the user to create a recipe list.
+            </li>
+
+        
+<br></br>
     
         <section class="page-section" id="projects">
             <h2>My Projects</h2>
@@ -31,6 +37,12 @@ export default function Portfolio() {
                             <figcaption> Foodie Central <span>HTML, CSS, JS, Node.JS, MYSQL</span></figcaption>
                         </a>
                     </figure>
+                    <figure class="grid-container">
+                        <a id="project3" class="grid-item grid-item-snippet" href="https://foodi3-c3ntral.vercel.app/" >
+                            <figcaption> Foodie Central <span>React, JS, Node.JS, GraphQL</span></figcaption>
+                        </a>
+                    </figure>
+
 
                 </div>
         </section>

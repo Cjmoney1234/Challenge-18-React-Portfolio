@@ -1,10 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
     font-family: 'Shadows Into Light', cursive;
 }
+
+.navbar {
+  background-color: pink !important;
+}
+
 
 .myBio {
   text-align: center;
@@ -248,6 +249,13 @@ input[type=radio] {
     object-fit: cover;
     background-repeat: no-repeat;
 }
+
+#project3 {
+  background-image: url(./images/assets/Screenshot\ 2023-05-01\ 213128.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
 
 #weatherDashboard {
     background-image: url(./images/Screenshot_20230106_075740.png);

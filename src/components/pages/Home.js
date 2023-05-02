@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <section >
         <div >
-            <img class="my-img" />
             <h3 class="occupation">Bootcamp Student</h3>
 
             <p class="bio"> This is my portfolio which includes a combination of past, present, and future projects. Majority of my projects are from my bootcamp, which is helping me break into the tech industy.
